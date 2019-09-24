@@ -71,6 +71,7 @@ require (
 	github.com/hashicorp/raft v1.1.1
 	github.com/hashicorp/raft-boltdb v0.0.0-20171010151810-6e5ba93211ea
 	github.com/hashicorp/serf v0.8.2
+	//github.com/hashicorp/serf v0.8.4
 	github.com/hashicorp/vault v0.10.3
 	github.com/hashicorp/vault-plugin-secrets-kv v0.0.0-20190318174639-195e0e9d07f1 // indirect
 	github.com/hashicorp/yamux v0.0.0-20181012175058-2f1d1f20f75d
@@ -118,3 +119,5 @@ require (
 	k8s.io/apimachinery v0.0.0-20190223001710-c182ff3b9841
 	k8s.io/client-go v8.0.0+incompatible
 )
+
+replace github.com/hashicorp/serf => /Users/schristoff/gohack/github.com/hashicorp/serf

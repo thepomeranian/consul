@@ -209,6 +209,8 @@ github.com/hashicorp/raft-boltdb v0.0.0-20171010151810-6e5ba93211ea h1:xykPFhrBA
 github.com/hashicorp/raft-boltdb v0.0.0-20171010151810-6e5ba93211ea/go.mod h1:pNv7Wc3ycL6F5oOWn+tPGo2gWD4a5X+yp/ntwdKLjRk=
 github.com/hashicorp/serf v0.8.2 h1:YZ7UKsJv+hKjqGVUUbtE3HNj79Eln2oQ75tniF6iPt0=
 github.com/hashicorp/serf v0.8.2/go.mod h1:6hOLApaqBFA1NXqRQAsxw9QxuDEvNxSQRwA/JwenrHc=
+github.com/hashicorp/serf v0.8.4 h1:nfikPYzgKvrThySCqSN6ap+LqILhPej+ubRWRNQmzgk=
+github.com/hashicorp/serf v0.8.4/go.mod h1:UpNcs7fFbpKIyZaUuSW6EPiH+eZC7OuyFD+wc1oal+k=
 github.com/hashicorp/vault v0.10.3 h1:3Hf6mwC4rggOq6ViWSoJ2yfk1oBS5ed58LLcP33gmEg=
 github.com/hashicorp/vault v0.10.3/go.mod h1:KfSyffbKxoVyspOdlaGVjIuwLobi07qD1bAbosPMpP0=
 github.com/hashicorp/vault-plugin-secrets-kv v0.0.0-20190318174639-195e0e9d07f1 h1:7IvvWArBoSjStPohKqHj3ksXNjcyPsyXYDIhCQw6Vtg=

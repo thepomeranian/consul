@@ -158,6 +158,10 @@ type QueryOptions struct {
 	// Filter requests filtering data prior to it being returned. The string
 	// is a go-bexpr compatible expression.
 	Filter string
+
+	// Prune is an optional context pass to allow forceleave to
+	// remove all knowledge of an agent
+	Prune bool
 }
 
 func (o *QueryOptions) Context() context.Context {
@@ -678,6 +682,10 @@ func (r *request) setQueryOptions(q *QueryOptions) {
 		if len(cc) > 0 {
 			r.header.Set("Cache-Control", strings.Join(cc, ", "))
 		}
+	}
+
+	if q.Prune {
+		r.params.Set("prune", "true")
 	}
 	r.ctx = q.ctx
 }

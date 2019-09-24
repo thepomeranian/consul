@@ -192,6 +192,13 @@ github.com/gregjones/httpcache
 github.com/gregjones/httpcache/diskcache
 # github.com/hailocab/go-hostpool v0.0.0-20160125115350-e80d13ce29ed
 github.com/hailocab/go-hostpool
+# github.com/hashicorp/consul/api v1.1.0 => ./api
+github.com/hashicorp/consul/api
+github.com/hashicorp/consul/api/watch
+# github.com/hashicorp/consul/sdk v0.1.1 => ./sdk
+github.com/hashicorp/consul/sdk/freeport
+github.com/hashicorp/consul/sdk/testutil/retry
+github.com/hashicorp/consul/sdk/testutil
 # github.com/hashicorp/errwrap v1.0.0
 github.com/hashicorp/errwrap
 # github.com/hashicorp/go-bexpr v0.1.0
@@ -272,7 +279,7 @@ github.com/hashicorp/net-rpc-msgpackrpc
 github.com/hashicorp/raft
 # github.com/hashicorp/raft-boltdb v0.0.0-20171010151810-6e5ba93211ea
 github.com/hashicorp/raft-boltdb
-# github.com/hashicorp/serf v0.8.2
+# github.com/hashicorp/serf v0.8.2 => /Users/schristoff/gohack/github.com/hashicorp/serf
 github.com/hashicorp/serf/coordinate
 github.com/hashicorp/serf/serf
 # github.com/hashicorp/vault v0.10.3
